@@ -1,0 +1,19 @@
+<resources>
+    <string name="title_activity_blogs">BlogsActivity</string>
+    <string name="title_activity_blog_create">BlogCreate</string>
+    <string name="title_activity_login_activity">login_activity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_head">head</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_profile_edit">Edit</string>
+    <string name="title_articles">Articles</string>
+    <string name="title_create_article">Create article</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_article_content">ArticleContent</string>
+    <string name="article_like">Like</string>
+    <string name="article_comment">Comment</string>
+    <string name="article_back">Back</string>
+    <string name="database_path">/data/data/</string>
+    <string name="app_name">BlogsReader</string>
+
+</resources>

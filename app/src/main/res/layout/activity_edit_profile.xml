@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".EditProfile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="207dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Редактировать профиль"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/EditText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Введите ваш псевдоним"
+                    android:textSize="26dp" />
+
+                <EditText
+                    android:id="@+id/EditText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Имя"
+                    android:textSize="26dp" />
+
+                <EditText
+                    android:id="@+id/EditText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Фамилия"
+                    android:textSize="26dp" />
+
+                <EditText
+                    android:id="@+id/EditText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Возраст"
+                    android:textSize="26dp" />
+
+                <EditText
+                    android:id="@+id/EditText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:hint="Информация о себе"
+                    android:textSize="26dp" />
+
+                <EditText
+                    android:id="@+id/EditText7"
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:hint="Интересы"
+                    android:textSize="26dp" />
+
+                <Button
+                    android:id="@+id/buttonSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Сохранить"
+                    android:textSize="26dp" />
+                <Button
+                    android:id="@+id/buttonClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Очистить"
+                    android:textSize="26dp" />
+                <Button
+                    android:id="@+id/buttonBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Назад"
+                    android:textSize="26dp" />
+
+            </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

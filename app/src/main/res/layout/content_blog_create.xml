@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/titleArticle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Введите название статьи"
+            android:textSize="35dp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textArticle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Напишите сюда уже что-нибудь..." />
+    <EditText
+        android:id="@+id/authorArticle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Авторство" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="НЕ ЗАБУДЬТЕ ДОБАВИТЬ ФОТОГРАФИИИ"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:id="@+id/photoArticle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/blogCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE BLOG" />
+
+</LinearLayout>
